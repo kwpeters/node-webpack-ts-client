@@ -1,0 +1,14 @@
+{
+  "name": "node-webpack-ts-client",
+  "version": "1.0.0",
+  "description": "A sample client that uses the library built by node-webpack-ts-lib.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Peters <kwpeters@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-webpack-ts-lib": "file:///Users/kwpeters/dev/experimental/node-webpack-ts-lib"
+  }
+}
