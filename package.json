@@ -10,5 +10,8 @@
   "license": "MIT",
   "dependencies": {
     "node-webpack-ts-lib": "file:///Users/kwpeters/dev/experimental/node-webpack-ts-lib"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.13"
   }
 }
