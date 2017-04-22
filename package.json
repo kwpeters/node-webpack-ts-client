@@ -4,7 +4,8 @@
   "description": "A sample client that uses the library built by node-webpack-ts-lib.",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "WEBPACK_ENV=production webpack --config webpack.config.js --progress --colors"
   },
   "author": "Kevin Peters <kwpeters@gmail.com>",
   "license": "MIT",
@@ -12,6 +13,10 @@
     "node-webpack-ts-lib": "file:///Users/kwpeters/dev/experimental/node-webpack-ts-lib"
   },
   "devDependencies": {
-    "@types/node": "^7.0.13"
+    "@types/node": "^7.0.13",
+    "awesome-typescript-loader": "^3.1.2",
+    "source-map-loader": "^0.2.1",
+    "typescript": "^2.2.2",
+    "webpack": "^2.4.1"
   }
 }
